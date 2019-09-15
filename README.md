@@ -1,2 +1,4 @@
 # MagicBot
-Реализация бота по принципу Echo.
+Р РµР°Р»РёР·Р°С†РёСЏ Р±РѕС‚Р° РїРѕ РїСЂРёРЅС†РёРїСѓ Echo.
+
+РЎС‚Р°С‚СѓСЃ СЃР±РѕСЂРєРё: [![Build Status](https://travis-ci.org/TarasenkoAlex/MapGen.svg?branch=master)](https://travis-ci.org/TarasenkoAlex/MapGen)

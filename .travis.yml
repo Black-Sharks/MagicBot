@@ -1,0 +1,10 @@
+language: csharp
+solution: MagicBot.sln
+
+install:
+  - sudo apt-get install nunit-console
+  - nuget restore MagicBot.sln
+  
+script:
+  - xbuild /p:Configuration=Release MagicBot.sln
+  #- nunit-console ./MagicBot.Model.Tests/bin/x64/Release/netcoreapp2.2/MagicBot.Model.Tests.dll

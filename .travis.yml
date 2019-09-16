@@ -1,6 +1,9 @@
 language: csharp
 solution: MagicBot.sln
-
+mono: none
+dotnet: 2.2
+script:
+  - dotnet restore
 install:
   - sudo apt-get install nunit-console
   - nuget restore MagicBot.sln

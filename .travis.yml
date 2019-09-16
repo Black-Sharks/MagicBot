@@ -9,5 +9,5 @@ install:
   #- nuget restore MagicBot.sln
   
 script:
-  - xbuild /p:Configuration=Release MagicBot.sln
+  #- xbuild /p:Configuration=Release MagicBot.sln
   #- nunit-console ./MagicBot.Model.Tests/bin/x64/Release/netcoreapp2.2/MagicBot.Model.Tests.dll

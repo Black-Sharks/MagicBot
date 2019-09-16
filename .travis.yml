@@ -6,7 +6,7 @@ script:
   - dotnet restore
 install:
   - sudo apt-get install nunit-console
-  - nuget restore MagicBot.sln
+  #- nuget restore MagicBot.sln
   
 script:
   - xbuild /p:Configuration=Release MagicBot.sln
